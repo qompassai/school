@@ -62,6 +62,30 @@ labels its own output.
   govern who may touch what and how far it may travel. Neither
   substitutes for the other.
 
+## Adoption rule — proof over preference (Owner, 2026-10-21)
+
+Small-model assembly lines are the preferred shape wherever they
+prove better than a single regular model on the same task — and
+only there. Proof is a head-to-head at equal budget (floor-seconds
+on the shared generation slot), per task class: the school line
+wins a task class when its gated score beats the single-model
+baseline's; a tie or a loss keeps the task on the regular model.
+Preference never substitutes for the measurement, and leverage
+scales with proof, not enthusiasm.
+
+The second research object is the combination matrix: for each
+task class, which combination of mechanisms the line actually
+needs — shared attention (MATE focus/publish), lease-and-timeout
+discipline (R9–R11), auction-based executor selection,
+trigger-scoped skill/MCP loading (config decides what CAN load,
+the triggered skill what SHOULD, flowguard what MAY), and A2A
+handoff where a station is a remote agent. The matrix starts
+empty and is filled only by evidence: validation-cycle results
+(model × task-class scores), trial runs, and incident records. A
+mechanism that earns nothing on a task class is removed from that
+class's combination; the matrix is expected to differ per class
+and to change as evidence arrives.
+
 ## Sources
 
 - Protocol (R1–R11, incl. the OpenAPPA layer and time
