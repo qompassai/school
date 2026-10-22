@@ -86,6 +86,23 @@ mechanism that earns nothing on a task class is removed from that
 class's combination; the matrix is expected to differ per class
 and to change as evidence arrives.
 
+## Trial-build rulings (Owner, 2026-10-21)
+
+- OD-1: two arms — qwen2.5-coder-3b and granite-4.2-8b each run
+  the line; the trial settles the constant empirically.
+- OD-2: the runner drives the ComfyUI API directly; atelier's
+  MCP tools stay out of the measurement. Long-term direction
+  ruled the same night: absorb ComfyUI's principles
+  (graphs-as-data, typed node contracts, content-addressed
+  caching, queue separation) into atelier behind our own engine;
+  the trial does not wait for it — absorption proceeds in
+  parallel, with the trial's frozen briefs as its parity corpus.
+- OD-3: 6-brief smoke, gated, then the full 20-30; every brief
+  also runs the single-model baseline.
+- OD-4: trial images are evidence only, retained for audit; a
+  trial image becomes production art only by the Owner's
+  per-image eye approval.
+
 ## Sources
 
 - Protocol (R1–R11, incl. the OpenAPPA layer and time
